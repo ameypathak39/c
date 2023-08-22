@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+    // Creating a file pointer
+    FILE *file;
+
+    // Opening a file for writing
+    file = fopen("example.txt", "w");
+    
+    if (file == NULL) {
+        printf("Unable to open the file.\n");
+        return 1;
+    }
+
+    // Writing to the file
+    fprintf(file, "Hello, File Handling in C!\n");
+    fprintf(file, "This is a demonstration of basic file operations.\n");
+
+    // Closing the file after writing
+    fclose(file);
+
+    // Reopening the file for reading
+    file = fopen("example.txt", "r");
+
+    if (file == NULL) {
+        printf("Unable to open the file.\n");
+        return 1;
+    }
+
+    // Reading and printing the contents of the file
+    char buffer[100];
+    while (fgets(buffer, sizeof(buffer), file) != NULL) {
+        printf("%s", buffer);
+    }
+
+    // Closing the file after reading
+    fclose(file);
+
+    return 0;
+}
