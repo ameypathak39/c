@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10;
+    int condition1 = (a > 2) && (b < 15);
+    int condition2 = (a > 2) || (b > 20);
+    int condition3 = !(a == b);
+
+    printf("Condition 1: %d\n", condition1);
+    printf("Condition 2: %d\n", condition2);
+    printf("Condition 3: %d\n", condition3);
+
+    return 0;
+}
