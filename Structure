@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+
+// Define a structure named 'Person'
+struct Person {
+    char name[50];
+    int age;
+    float height;
+};
+
+int main() {
+    // Declare a variable of type 'struct Person'
+    struct Person person1;
+
+    // Initialize the members of the structure
+    strcpy(person1.name, "Ameya");
+    person1.age = 20;
+    person1.height = 5.7;
+
+    // Display the information
+    printf("Person's name: %s\n", person1.name);
+    printf("Person's age: %d\n", person1.age);
+    printf("Person's height: %.2f\n", person1.height);
+
+    return 0;
+}
