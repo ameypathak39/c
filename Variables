@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // Integer variable
+    int age = 25;
+
+    // Floating-point variable
+    float pi = 3.14159;
+
+    // Character variable
+    char grade = 'A';
+
+    // String variable (array of characters)
+    char name[] = "John";
+
+    // Boolean variable (not built-in in C, often represented using integers)
+    int isStudent = 1; // 1 represents true, 0 represents false
+
+    // Displaying variables
+    printf("Age: %d\n", age);
+    printf("Pi: %f\n", pi);
+    printf("Grade: %c\n", grade);
+    printf("Name: %s\n", name);
+    printf("Is Student: %d\n", isStudent);
+
+    return 0;
+}
