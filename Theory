@@ -1,0 +1,22 @@
+
+
+# Basics of C: This includes understanding variables, data types, operators, control flow statements, and functions.
+
+    Variables: A variable is a named memory location that can store data.
+    Data types: A data type defines the kind of data that a variable can store.
+    Operators: Operators are symbols that perform operations on data.
+    Control flow statements: Control flow statements allow you to control the order in which statements are executed.
+    Functions: A function is a block of code that can be reused.
+
+# Advanced concepts of C: This includes topics such as pointers, structures, unions, and recursion.
+
+    Pointers: A pointer is a variable that stores the address of another variable.
+    Structures: A structure is a data type that can hold multiple data items of different types.
+    Unions: A union is a data type that can hold only one data item at a time.
+    Recursion: Recursion is a programming technique that calls itself to solve a problem.
+
+# Advanced topics: This includes topics such as dynamic memory allocation, linked lists, and binary trees.
+
+    Dynamic memory allocation: Dynamic memory allocation is the process of allocating memory at runtime.
+    Linked lists: A linked list is a data structure that stores data in a linked fashion.
+    Binary trees: A binary tree is a data structure that stores data in a hierarchical fashion
