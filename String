@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h> // Include the string.h header for string functions
+
+int main() {
+    char inputString[100]; // Declare an array to store the input string
+    char copiedString[100]; // Declare an array to store the copied string
+
+    // Input a string from the user
+    printf("Enter a string: ");
+    scanf("%s", inputString);
+
+    // Calculate the length of the input string
+    int length = strlen(inputString);
+
+    // Copy the input string to the copiedString array
+    strcpy(copiedString, inputString);
+
+    // Compare the two strings
+    int compareResult = strcmp(inputString, copiedString);
+
+    // Display the results
+    printf("Original String: %s\n", inputString);
+    printf("Copied String: %s\n", copiedString);
+    printf("Length of the string: %d\n", length);
+
+    if (compareResult == 0) {
+        printf("The two strings are equal.\n");
+    } else {
+        printf("The two strings are not equal.\n");
+    }
+
+    return 0;
+}
