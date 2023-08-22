@@ -1,0 +1,30 @@
+//Input/output
+#include <stdio.h>
+
+int main() {
+    // Declare variables to store user input
+    int age;
+    
+    char name[50];
+    char college_name[100]; // Declare a variable to store college name
+
+    // Get user input using scanf
+    printf("Enter your name: ");
+    scanf("%s", name); // Note: %s reads a string (sequence of characters)
+
+    // Get user input for college name
+    printf("Enter your college name: ");
+    scanf("%s", college_name); // Note: %s reads a string (sequence of characters)
+
+    printf("Enter your age: ");
+    scanf("%d", &age); // Note: %d reads an integer
+
+  
+    // Display the input values using printf
+    printf("\nName: %s\n", name);
+    printf("College Name: %s\n", college_name); // Display college name
+    printf("Age: %d\n", age);
+    
+
+    return 0;
+}
